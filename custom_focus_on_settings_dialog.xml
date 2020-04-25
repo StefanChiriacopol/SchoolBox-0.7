@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="450dp"
+    app:cardCornerRadius="18dp"
+    android:background="@drawable/round_corner_background12">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/round_corner_background12">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="12.5dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="12.5dp"
+        android:fontFamily="@font/quicksand_medium"
+        android:text="@string/chooseOneLevel"
+        android:textAlignment="center"
+        android:textColor="@color/Black"
+        app:autoSizeTextType="uniform" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="35dp"
+        android:orientation="vertical"
+        android:weightSum="4">
+
+
+        <TextView
+            android:id="@+id/ReallyBadChoice"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/gray_item_background"
+            android:fontFamily="@font/quicksand_medium"
+            android:gravity="center"
+            android:text="@string/ReallyBad"
+            android:textColor="#D54601"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/BadChoice"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/gray_item_background"
+            android:fontFamily="@font/quicksand_medium"
+            android:gravity="center"
+            android:text="@string/Bad"
+            android:textColor="#E19B16"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/StableChoice"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/gray_item_background"
+            android:fontFamily="@font/quicksand_medium"
+            android:gravity="center"
+            android:text="@string/Stable"
+            android:textColor="#D4BD1A"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/GoodChoice"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/gray_item_background_v2"
+            android:fontFamily="@font/quicksand_medium"
+            android:gravity="center"
+            android:text="@string/Good"
+            android:textColor="#9AB73C"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="35dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/Cancel"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="20dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/quicksand_medium"
+            android:gravity="center"
+            android:text="@string/negativeDialogButton"
+            android:textColor="@color/Accent"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/Save"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/quicksand_medium"
+            android:gravity="center"
+            android:text="@string/setDialogButton"
+            android:textColor="@color/Accent"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
+</androidx.cardview.widget.CardView>
