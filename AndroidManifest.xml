@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.schoolbox">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/school"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/school"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".NewMarkActivity"
+            android:theme="@style/AppTheme5"/>
+        <activity
+            android:name=".SubjectInfoActivity"
+            android:theme="@style/AppTheme3" />
+        <activity
+            android:name=".NewSubjectActivity"
+            android:theme="@style/AppTheme3" />
+        <activity
+            android:name=".ClassesActivity"
+            android:theme="@style/AppTheme3" />
+        <activity
+            android:name=".MarksActivity"
+            android:theme="@style/AppTheme5" />
+        <activity
+            android:name=".ColegDataEditActivity"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".ColegInfoActivity"
+            android:theme="@style/AppTheme2" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

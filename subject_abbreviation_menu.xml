@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/One_letters_option"
+        android:title="@string/OneLettersOption" />
+
+    <item android:id="@+id/Two_letters_option"
+        android:title="@string/TwoLettersOption" />
+
+    <item android:id="@+id/Three_letters_option"
+        android:title="@string/ThreeLetersOption" />
+
+    <item android:id="@+id/Four_letters_option"
+        android:title="@string/FourLettersOption" />
+
+</menu>
